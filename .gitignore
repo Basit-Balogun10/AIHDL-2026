@@ -1,0 +1,180 @@
+# AI-HDL Repository .gitignore
+
+# Compiled Verilog files
+*.vvp
+*.vcd
+*.fst
+*.ghw
+
+# Synthesis outputs
+*.blif
+*.edif
+*.json
+*.asc
+*.bin
+
+# FPGA vendor tool outputs
+*.bit
+*.mcs
+*.ltx
+*.dcp
+*.rpt
+*.jou
+*.log
+*.str
+*.xpr
+work/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Vivado
+vivado*
+*.backup.*
+*.debug
+webtalk*
+.Xil/
+
+# Quartus
+*.qpf
+*.qsf
+*.qws
+*.done
+*.pin
+*.sof
+*.pof
+*.jdi
+*.qdf
+*.qtl
+*.qip
+*.bsf
+*.cmp
+*.sip
+*.spd
+*.bak
+db/
+incremental_db/
+simulation/
+timing/
+testbench/
+greybox_tmp/
+
+# ModelSim
+work/
+transcript
+vsim.wlf
+*.mpf
+*.mti
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# AI interaction logs (keep structure but ignore content in some cases)
+ai-logs/*.jsonl
+ai-logs/temp_*
+ai-logs/draft_*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Node modules (if any web tools are used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local configuration files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Team-specific files that should not be shared
+team-secrets/
+local-config/
+personal-notes/
+
+# Large binary files
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Backup files
+*.bak
+*.backup
+*_backup
+
+# Test outputs
+test_results/
+coverage/
+*.coverage
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary submission files
+submissions/temp/
+submissions/draft/
