@@ -45,4 +45,4 @@ These tools provide participants with professional-grade EDA capabilities for:
 
 ---
 
-*Last updated: [Date] | AI-HDL 2025-2026*
+*Last updated: November 02, 2025 | AI-HDL 2025-2026*
