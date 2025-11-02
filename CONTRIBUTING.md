@@ -264,4 +264,4 @@ Thank you for helping make AI-HDL a better experience for everyone! Your contrib
 - **Partnership Inquiries**: aihdl-partnerships@arizona.edu
 - **Media and Press**: aihdl-media@arizona.edu
 
-*Last updated: [Date] | Version: 1.0*
+*Last updated: November 02, 2025 | Version: 1.0*

@@ -309,4 +309,4 @@ pip install --upgrade openai anthropic jupyter
 
 *Need help with setup? Join our Discord community or email aihdl-setup@arizona.edu*
 
-*Last updated: [Date] | Version: 1.0*
+*Last updated: November 02, 2025 | Version: 1.0*

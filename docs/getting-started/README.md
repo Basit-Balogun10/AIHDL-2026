@@ -247,4 +247,4 @@ Ready to start your AI-HDL journey? Let's build the future of hardware design to
 
 *This framework is inspired by the successful University of Arizona AI-HDL program.*
 
-*Last updated: [Date] | Version: 1.0*
+*Last updated: November 02, 2025 | Version: 1.0*
