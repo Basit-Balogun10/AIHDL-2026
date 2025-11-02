@@ -35,14 +35,14 @@ jobs:
             done
           fi
           
-          # PASS 2: Replace [Date] placeholders in ALL .md files
+           # PASS 2: Replace [Date] placeholders in ALL .md files
           echo "Pass 2: Replacing [Date] placeholders in all markdown files..."
-          find . -name "*.md" -type f | while read file; do
+          while IFS= read -r -d '' file; do
             if grep -q "Last updated: \[Date\]" "$file"; then
               echo "  - $file"
               sed -i "s/Last updated: \[Date\]/Last updated: $CURRENT_DATE/g" "$file"
             fi
-          done
+          done < <(find . -name "*.md" -type f -print0)
           
       - name: Check for changes
         id: check_changes
